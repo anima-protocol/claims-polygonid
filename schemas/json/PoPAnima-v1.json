@@ -115,6 +115,7 @@
           "format": "uri"
         },
         "human": {
+          "title": "Is User Human",
           "type": "boolean"
         }
       }

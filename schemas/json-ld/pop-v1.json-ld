@@ -5,8 +5,8 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "AnimaPoP": {
-        "@id": "https://raw.githubusercontent.com/anima-protocol/pop-claims-polygonid/main/schemas/json-ld/pop-v1.json-ld#AnimaPoP",
+      "AnimaProofOfPersonhood": {
+        "@id": "https://raw.githubusercontent.com/anima-protocol/pop-claims-polygonid/main/schemas/json-ld/pop-v1.json-ld#AnimaProofOfPersonhood",
         "@context": {
           "@version": 1.1,
           "@protected": true,
