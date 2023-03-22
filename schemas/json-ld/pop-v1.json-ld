@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "AnimaPoP": {
+        "@id": "https://raw.githubusercontent.com/anima-protocol/pop-claims-polygonid/main/schemas/json-ld/pop-v1.json-ld#AnimaPoP",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/anima-protocol/pop-claims-polygonid/blob/main/credentials/pop.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "human": {
+            "@id": "kyc-vocab:human",
+            "@type": "xsd:boolean"
+          }
+        }
+      }
+    }
+  ]
+}
