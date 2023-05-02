@@ -3,8 +3,8 @@
   "type": "object",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/anima-protocol/pop-claims-polygonid/main/schemas/json-ld/pop-v1.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/anima-protocol/pop-claims-polygonid/main/schemas/json/PoPAnima-v1.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json-ld/pol-v1.json-ld",
+      "jsonSchema": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json/PoLAnima-v1.json"
     }
   },
   "required": [

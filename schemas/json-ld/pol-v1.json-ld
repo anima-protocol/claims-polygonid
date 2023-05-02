@@ -5,14 +5,14 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "AnimaProofOfPersonhood": {
-        "@id": "https://raw.githubusercontent.com/anima-protocol/pop-claims-polygonid/main/schemas/json-ld/pop-v1.json-ld#AnimaProofOfPersonhood",
+      "AnimaProofOfLife": {
+        "@id": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json-ld/pol-v1.json-ld#AnimaProofOfLife",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "kyc-vocab": "https://github.com/anima-protocol/pop-claims-polygonid/blob/main/credentials/pop.md#",
+          "kyc-vocab": "https://github.com/anima-protocol/claims-polygonid/blob/main/credentials/pol.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "human": {
             "@id": "kyc-vocab:human",
