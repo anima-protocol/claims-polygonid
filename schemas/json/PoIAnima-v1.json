@@ -106,7 +106,16 @@
       "type": "object",
       "required": [
         "id",
-        "human"
+        "firstname",
+        "lastname",
+        "date_of_birth",
+        "nationality",
+        "document_country",
+        "document_type",
+        "document_number",
+        "document_expiration",
+        "kyc_validated",
+        "kyc_aml_validated"
       ],
       "properties": {
         "id": {
@@ -151,8 +160,8 @@
           "type": "boolean"
         },
         "kyc_aml_validated": {
-            "title": "KYC AML Validated",
-            "type": "boolean"
+          "title": "KYC AML Validated",
+          "type": "boolean"
         }
       }
     }
