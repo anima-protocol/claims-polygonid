@@ -33,7 +33,7 @@
           "document_country": {
             "@id": "kyc-vocab:document_country",
             "@type": "xsd:string"
-          }
+          },
           "document_type": {
             "@id": "kyc-vocab:document_type",
             "@type": "xsd:string"
