@@ -108,11 +108,13 @@
         "id",
         "firstname",
         "lastname",
+        "date_of_birth_str",
         "date_of_birth",
         "nationality",
         "document_country",
         "document_type",
         "document_number",
+        "document_expiration_str",
         "document_expiration",
         "kyc_validated",
         "kyc_aml_validated"
@@ -131,9 +133,13 @@
           "title": "Last Name",
           "type": "string"
         },
-        "date_of_birth": {
-          "title": "Date of Birth",
+        "date_of_birth_str": {
+          "title": "Date of Birth (Date String)",
           "type": "string"
+        },
+        "date_of_birth": {
+          "title": "Date of Birth (Timestamp)",
+          "type": "integer"
         },
         "nationality": {
           "title": "Nationality",
@@ -151,9 +157,13 @@
           "title": "Document Number",
           "type": "string"
         },
-        "document_expiration": {
-          "title": "Document Expiration Date",
+        "document_expiration_str": {
+          "title": "Document Expiration Date (Date String)",
           "type": "string"
+        },
+        "document_expiration": {
+          "title": "Document Expiration Date (Timestamp)",
+          "type": "integer"
         },
         "kyc_validated": {
           "title": "KYC Validated",

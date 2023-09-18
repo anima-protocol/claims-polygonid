@@ -14,12 +14,20 @@ lastname is the last name of the user. (string)
   "lastname": "Doe"
 ```
 
-# date_of_birth
+# date_of_birth_str
 
-date_of_birth is the date of birth of the user. (string)
+date_of_birth_str is the date of birth of the user. (string)
 
 ```
-  "date_of_birth": "1990-01-01"
+  "date_of_birth_str": "1990-01-01"
+```
+
+# date_of_birth
+
+date_of_birth is the timestamp of date of birth of the user. (int)
+
+```
+  "date_of_birth": 631148400
 ```
 
 # nationality
@@ -54,12 +62,20 @@ document_number is the number of the document. (string)
   "document_number": "60RF00811"
 ```
 
-# document_expiration
+# document_expiration_str
 
-document_expiration is the expiration date of the document. (string)
+document_expiration_str is the expiration date of the document. (string)
 
 ```
-  "document_expiration": "2020-01-01"
+  "document_expiration_str": "2020-01-01"
+```
+
+# document_expiration
+
+document_expiration is the timestamp of expiration date of the document. (int)
+
+```
+  "document_expiration": 1577833200
 ```
 
 # kyc_validated

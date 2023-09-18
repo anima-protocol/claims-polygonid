@@ -22,9 +22,13 @@
             "@id": "kyc-vocab:lastname",
             "@type": "xsd:string"
           },
+          "date_of_birth_str": {
+            "@id": "kyc-vocab:date_of_birth_str",
+            "@type": "xsd:string"
+          },
           "date_of_birth": {
             "@id": "kyc-vocab:date_of_birth",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           },
           "nationality": {
             "@id": "kyc-vocab:nationality",
@@ -42,9 +46,13 @@
             "@id": "kyc-vocab:document_number",
             "@type": "xsd:string"
           },
+          "document_expiration_str": {
+            "@id": "kyc-vocab:document_expiration_str",
+            "@type": "xsd:string"
+          },
           "document_expiration": {
             "@id": "kyc-vocab:document_expiration",
-            "@type": "xsd:string"
+            "@type": "xsd:integer"
           },
           "kyc_validated": {
             "@id": "kyc-vocab:kyc_validated",
