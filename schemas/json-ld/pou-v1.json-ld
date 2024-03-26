@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "AnimaProofOfUniqueness": {
+        "@id": "https://raw.githubusercontent.com/anima-protocol/claims-polygonid/main/schemas/json-ld/pou-v1.json-ld#AnimaProofOfUniqueness",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "kyc-vocab": "https://github.com/anima-protocol/claims-polygonid/blob/main/credentials/pou.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "human": {
+            "@id": "kyc-vocab:unique",
+            "@type": "xsd:boolean"
+          },
+          "reputation_level": {
+            "@id": "kyc-vocab:reputation_level",
+            "@type": "xsd:integer"
+          },
+          "last_verification_timestamp": {
+            "@id": "kyc-vocab:last_verification_timestamp",
+            "@type": "xsd:dateTime"
+          },
+          "last_verification_date": {
+            "@id": "kyc-vocab:last_verification_date",
+            "@type": "xsd:date"
+          }
+        }
+      }
+    }
+  ]
+}
