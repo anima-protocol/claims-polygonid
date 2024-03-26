@@ -24,8 +24,8 @@ last_verification_timestamp is the timestamp of the last verification of the use
 
 # last_verification_date
 
-last_verification_date is the date of the last verification of the user. (string)
+last_verification_date is the date of the last verification of the user. (int)
 
 ```
-  "last_verification_date": "2020-01-01"
+  "last_verification_date": 20200101"
 ```

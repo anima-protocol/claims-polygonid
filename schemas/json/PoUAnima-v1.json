@@ -127,12 +127,11 @@
         },
         "last_verification_timestamp": {
           "title": "Last Verification Timestamp",
-          "type": "string"
+          "type": "integer"
         },
         "last_verification_date": {
           "title": "Last Verification Date",
-          "type": "string",
-          "format": "date-time"
+          "type": "integer"
         }
       }
     }
