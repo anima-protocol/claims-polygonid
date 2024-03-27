@@ -14,7 +14,7 @@
           "type": "@type",
           "kyc-vocab": "https://github.com/anima-protocol/claims-polygonid/blob/main/credentials/pou.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "human": {
+          "unique": {
             "@id": "kyc-vocab:unique",
             "@type": "xsd:boolean"
           },
