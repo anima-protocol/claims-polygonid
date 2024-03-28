@@ -6,6 +6,14 @@ define if user is unique or not (boolean)
   "unique": true 
  ```
 
+# user_hash
+
+user_hash is the unique hash of the user. (string)
+
+```
+  "user_hash": "9c22ff5f21f0b81b113e63f7db6da94fedef11b2119b4088b89664fb9a3cb658"
+```
+
 # reputation_level
 
 reputation_level is the level of reputation of the user. (int)

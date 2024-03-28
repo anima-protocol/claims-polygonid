@@ -18,6 +18,10 @@
             "@id": "kyc-vocab:unique",
             "@type": "xsd:boolean"
           },
+          "user_hash": {
+            "@id": "kyc-vocab:user_hash",
+            "@type": "xsd:string"
+          },
           "reputation_level": {
             "@id": "kyc-vocab:reputation_level",
             "@type": "xsd:integer"

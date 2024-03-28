@@ -109,7 +109,8 @@
         "unique",
         "reputation_level",
         "last_verification_timestamp",
-        "last_verification_date"
+        "last_verification_date",
+        "user_hash"
       ],
       "properties": {
         "id": {
@@ -120,6 +121,10 @@
         "unique": {
           "title": "Is User Unique",
           "type": "boolean"
+        },
+        "user_hash": {
+          "title": "User Hash",
+          "type": "string"
         },
         "reputation_level": {
           "title": "Reputation Level",
